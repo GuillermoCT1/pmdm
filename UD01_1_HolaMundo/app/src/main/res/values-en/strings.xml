@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">UD01_1_HolaMundo</string>
+<string name="seleccionar">Choose an animal:</string>
+<string name="buscar">Search</string>
+<string-array name="list_animal">
+    <item>Cat</item>
+    <item>Dog</item>
+    <item>Caw</item>
+</string-array>
+</resources>

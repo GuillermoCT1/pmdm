@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textSelect"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="16dp"
+        android:text="@string/seleccionar"
+        />
+    <Spinner
+        android:id="@+id/animalType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/list_animal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blanco"/>
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E64141"
+        android:text="@string/buscar" />
+
+
+</LinearLayout>

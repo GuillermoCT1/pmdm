@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UD01_1_HolaMundo</string>
+    <string name="seleccionar">Elige el animal:</string>
+    <string name="buscar">Buscar</string>
+    <string-array name="list_animal">
+        <item>Gato</item>
+        <item>Perro</item>
+        <item>Vaca</item>
+    </string-array>
+</resources>

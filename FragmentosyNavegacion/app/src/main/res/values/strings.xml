@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentosyNavegacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto">Texto</string>
+    <string name="start">Empezar</string>
+    <string name="write">Escribe un texto\n</string>
+    <string name="next">Siguiente\n</string>
+    <string name="textoencriptado">texto encriptado</string>
+</resources>
