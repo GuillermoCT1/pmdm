@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tarefa_Titulo</string>
+    <string name="texto">Películas</string>
+    <string name="boton">Xerar novo título</string>
+</resources>
