@@ -15,7 +15,7 @@
         android:layout_marginBottom="20dp"
         android:background="#7B1FA2"
         android:padding="25dp"
-        android:text="UD2_FrameLayout"
+        android:text="@string/ud2_framelayout"
         android:textSize="22sp"
         android:textColor="@color/black"
         >
@@ -31,16 +31,57 @@
             android:layout_height="match_parent"
             android:src="@drawable/ourense"
             android:scaleType="centerCrop"
-            android:id="@+id/frame_ourense">
-            
+            android:id="@+id/frame_ourense"
+            android:contentDescription="@string/ourense">
+
         </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nourense"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_gravity="center">
+
+        </TextView>
 
     </FrameLayout>
-
 
     <FrameLayout
-        android:layout_width=""
-        android:layout_height="">
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/santiago"
+            android:scaleType="centerCrop"
+            android:id="@+id/frame_santiago"
+            android:contentDescription="@string/santiago">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nsantiago"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_gravity="center">
+
+        </TextView>
 
     </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text=""
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/mensaje"
+        >
+
+    </TextView>
 </LinearLayout>

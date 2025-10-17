@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">framelayout_2</string>
+    <string name="ud2_framelayout">UD2_FrameLayout</string>
+    <string name="ourense">Cidade termal</string>
+    <string name="santiago">Capital de galicia</string>
+    <string name="nsantiago">Santiago</string>
+    <string name="nourense">Ourense</string>
 </resources>

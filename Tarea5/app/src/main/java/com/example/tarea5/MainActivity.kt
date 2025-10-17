@@ -1,8 +1,8 @@
-package com.example.framelayout_2
+package com.example.tarea5
 
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,16 +18,14 @@ class MainActivity : AppCompatActivity() {
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
 //        }
+        val usuario = findViewById<EditText>(R.id.textInputEditText)
+        val cont = findViewById<EditText>(R.id.password)
+        val boton = findViewById<Button>(R.id.button)
+        boton.setOnClickListener{
+            val user = usuario.text.toString()
+            val pass = cont.text.toString()
+            Toast.makeText(this, "Usuario: $user\nContraseña: $pass", Toast.LENGTH_SHORT).show()
 
-        val imageOurense = findViewById<ImageView>(R.id.frame_ourense)
-        val imageSantiago = findViewById<ImageView>(R.id.frame_santiago)
-        val mensaje = findViewById<TextView>(R.id.mensaje)
-
-        imageOurense.setOnClickListener{
-            mensaje.text = getString(R.string.santiago)
-        }
-        imageSantiago.setOnClickListener{
-            mensaje.text = getString(R.string.ourense)
         }
     }
 }

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarea5</string>
+    <string name="texto">UD2_ConstraintLayout\n</string>
+    <string name="boton">Enviar</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+</resources>
