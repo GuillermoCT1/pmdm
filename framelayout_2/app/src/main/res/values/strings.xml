@@ -5,4 +5,6 @@
     <string name="santiago">Capital de galicia</string>
     <string name="nsantiago">Santiago</string>
     <string name="nourense">Ourense</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

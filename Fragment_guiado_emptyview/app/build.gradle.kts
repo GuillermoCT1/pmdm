@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.framelayout_2"
-    compileSdk = 35
+    namespace = "com.example.fragment_guiado_emptyview"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.framelayout_2"
+        applicationId = "com.example.fragment_guiado_emptyview"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -29,6 +29,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    buildFeatures{
+        viewBinding = true
     }
     kotlinOptions {
         jvmTarget = "11"
