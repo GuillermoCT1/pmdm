@@ -23,12 +23,17 @@ class Onboarding1Fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        //log para probar donde falla
         Log.d("Onboarding1Fragment", "onViewCreated ejecutado")
         val navController = view.findNavController()
         val botonSiguiente = view.findViewById<Button>(R.id.botonSiguiente)
+        val botonSkip = view.findViewById<Button>(R.id.skip)
         botonSiguiente.setOnClickListener{
             Log.d("Onboarding1Fragment", "Botón pulsado")
             navController.navigate(R.id.action_onboarding1Fragment_to_onboarding2Fragment)
+        }
+        botonSkip.setOnClickListener{
+            view.findNavController().navigate(R.id.action_onboarding1Fragment_to_homeFragment)
         }
     }
 
